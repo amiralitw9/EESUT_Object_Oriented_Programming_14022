@@ -1,0 +1,696 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="14.30" multi-file="no" uid="simp26aeec837bb544e38a197b6fbe868790" creation-date="03/27/2024 00:48:02">
+  <meta>
+    <name>UML_3</name>
+    <authors>amirali fazeli</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type type="Unknown" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>86</value>
+      </counter>
+      <counter>
+        <item-type type-id="text" type="Text" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>34</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>5</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>53</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-a2623fd41a44439e8a8cb5f22b0265b4" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>amirali</first-name>
+        <last-name>fazeli</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-f62c6f7415dc4535a57542a7a8578d9f" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="ArrayList&lt;Magazine&gt;" name="ArrayList&lt;Magazine&gt;" />
+        <type id="Class:4fd7c4c51cf94829bc6964935fb1e0e0" name="ProgramController" class-ref="4fd7c4c51cf94829bc6964935fb1e0e0" />
+        <type id="ArrayList&lt;Book&gt;" name="ArrayList&lt;Book&gt;" />
+        <type id="Magazine" name="Magazine" />
+        <type id="Class:52506831438d4449994729803e309b01" name="Library" class-ref="52506831438d4449994729803e309b01" />
+        <type id="Class:aafa78b7625a4bc29b83f169b4f40c6a" name="Main" class-ref="aafa78b7625a4bc29b83f169b4f40c6a" />
+        <type id="Matcher" name="Matcher" />
+        <type id="Matcher ()" name="Matcher ()" />
+        <type id="void" name="void" />
+        <type id="int" name="int" />
+        <type id=": String" name=": String" />
+        <type id="Book" name="Book" />
+        <type id="Class:e3e5fe25936f49ff86cc7e0f39ead2f2" name="Book" class-ref="e3e5fe25936f49ff86cc7e0f39ead2f2" />
+        <type id="Library" name="Library" />
+        <type id="Class:a796e282abbc4d64ade6e9c51d7e9361" name="Magazine" class-ref="a796e282abbc4d64ade6e9c51d7e9361" />
+        <type id="ArrayList&lt;Member&gt;" name="ArrayList&lt;Member&gt;" />
+        <type id="void  -getCommandMatche(nput: String, rage:: String): Matcher•	addACCOuni(natcher Matcher): void - increaseBalance(matcher: Matcher): void cashotn(nalcher Matcher): veld - addBook(matcher: Matcher): void•	addMagazine(matcher: Matcher): void - borrowBook(matCher: Matcher): Mid - borroveMagazine(matcher: Matcher): void•	retumBook(malcher: Matcher): void - retumMaganne(matcher: Matcher): void•	donaleBook(matcher: Matcher): void - returnMagazneAndBorrowNext(matcher: Matcher): void- pnntBooks(rnatcher: Matcher): void pnntMagazines(malcher: Matcher): void ()" name="void  -getCommandMatche(nput: String, rage:: String): Matcher•	addACCOuni(natcher Matcher): void - increaseBalance(matcher: Matcher): void cashotn(nalcher Matcher): veld - addBook(matcher: Matcher): void•	addMagazine(matcher: Matcher): void - borrowBook(matCher: Matcher): Mid - borroveMagazine(matcher: Matcher): void•	retumBook(malcher: Matcher): void - retumMaganne(matcher: Matcher): void•	donaleBook(matcher: Matcher): void - returnMagazneAndBorrowNext(matcher: Matcher): void- pnntBooks(rnatcher: Matcher): void pnntMagazines(malcher: Matcher): void ()" />
+        <type id="Class:deb94ce747ca4b26a273ae0f432aa89e" name="Member" class-ref="deb94ce747ca4b26a273ae0f432aa89e" />
+      </types>
+    </custom-types>
+  </types>
+  <items>
+    <item id="bb6ee007873444c7ae3734ba865660c7" cid="PROP050" type="property" owner="dfc3fc96f12d4c40afd5bb012c7479b3" creator="" creation-date="03/27/2024 01:26:36" visibility="undefined">
+      <structural-feature type="Library" type-id="Class:52506831438d4449994729803e309b01" />
+    </item>
+    <item id="3277fb99a5464eda99cf588c5ebe18c3" cid="PROP070" type="property" owner="c5f34a82bab24a298f4d5ba63aebe549" creator="" creation-date="03/27/2024 01:31:18" visibility="undefined">
+      <structural-feature type="Book" type-id="Class:e3e5fe25936f49ff86cc7e0f39ead2f2" />
+    </item>
+    <item id="b1788ec9cbe949918066055f1b5b93c1" cid="PROP069" type="property" owner="c5f34a82bab24a298f4d5ba63aebe549" creator="" creation-date="03/27/2024 01:31:18" visibility="undefined">
+      <structural-feature type="ProgramController" type-id="Class:4fd7c4c51cf94829bc6964935fb1e0e0" />
+    </item>
+    <item id="e0915cabd26f47fc965ac08bc68d1f6e" cid="PROP071" type="property" owner="0ced2ffcb6f14925ba0546b4e7267298" creator="" creation-date="03/27/2024 01:31:57" visibility="undefined">
+      <structural-feature type="Library" type-id="Class:52506831438d4449994729803e309b01" />
+      <property aggregation="shared" />
+    </item>
+    <item id="79f921b5824c46ff8316931d52ce7d9f" cid="PROP052" type="property" owner="3c609dac90fc4298bc14ca4bbdba2ca4" creator="" creation-date="03/27/2024 01:27:03" visibility="undefined">
+      <structural-feature type="Magazine" type-id="Class:a796e282abbc4d64ade6e9c51d7e9361" />
+    </item>
+    <item id="7a7fb9b664d34995b5dd070333d0ef61" cid="PROP059" type="property" owner="89ae9762dc974a898073211b8b41a8aa" creator="" creation-date="03/27/2024 01:28:35" visibility="undefined">
+      <structural-feature type="Library" type-id="Class:52506831438d4449994729803e309b01" />
+      <property aggregation="shared" />
+    </item>
+    <item id="474884f9e61244788554edaa0cce4dca" cid="PROP021" type="property" owner="275e2c81d5974e3f8c683f630f3ada35" creator="" creation-date="03/27/2024 01:24:56" visibility="private">
+      <structural-feature type="ProgramController" type-id="Class:4fd7c4c51cf94829bc6964935fb1e0e0" />
+    </item>
+    <item id="cd36f45667c942ccafc6c50ab2cdb533" cid="PROP051" type="property" owner="3c609dac90fc4298bc14ca4bbdba2ca4" creator="" creation-date="03/27/2024 01:27:03" visibility="undefined">
+      <structural-feature type="ProgramController" type-id="Class:4fd7c4c51cf94829bc6964935fb1e0e0" />
+    </item>
+    <item id="43c9ff5932b348efa3bc3eca8d0de8ad" cid="PROP004" type="property" owner="9ad4c036d5a64852a2b45effed8fd509" creator="" creation-date="03/27/2024 01:12:09" visibility="private">
+      <structural-feature type="Main" type-id="Class:aafa78b7625a4bc29b83f169b4f40c6a" />
+    </item>
+    <item id="3f6e4735bb544906a0ab97e465861ba2" cid="PROP049" type="property" owner="dfc3fc96f12d4c40afd5bb012c7479b3" creator="" creation-date="03/27/2024 01:26:36" visibility="undefined">
+      <structural-feature type="ProgramController" type-id="Class:4fd7c4c51cf94829bc6964935fb1e0e0" />
+      <property aggregation="shared" />
+    </item>
+    <item id="b82fb116fcab4a4f8f8df2b51dfcaffb" cid="PROP005" type="property" owner="9ad4c036d5a64852a2b45effed8fd509" creator="" creation-date="03/27/2024 01:12:09" visibility="private">
+      <structural-feature type="ProgramController" type-id="Class:4fd7c4c51cf94829bc6964935fb1e0e0" />
+    </item>
+    <item id="d99c8eac2db04e79a65a917491364451" cid="PROP072" type="property" owner="0ced2ffcb6f14925ba0546b4e7267298" creator="" creation-date="03/27/2024 01:31:57" visibility="undefined">
+      <structural-feature type="Member" type-id="Class:deb94ce747ca4b26a273ae0f432aa89e" />
+    </item>
+    <item id="e43aec71642b47ee94bf46bbcbaaba1f" cid="PROP058" type="property" owner="1bf59f9466e544f2a3f8bbd9dfd56b62" creator="" creation-date="03/27/2024 01:27:19" visibility="undefined">
+      <structural-feature type="Magazine" type-id="Class:a796e282abbc4d64ade6e9c51d7e9361" />
+    </item>
+    <item id="154766d82c184c5cbc715c64a5137e99" cid="PROP060" type="property" owner="89ae9762dc974a898073211b8b41a8aa" creator="" creation-date="03/27/2024 01:28:35" visibility="undefined">
+      <structural-feature type="Book" type-id="Class:e3e5fe25936f49ff86cc7e0f39ead2f2" />
+    </item>
+    <item id="1d3b3b0e024841b7945490e3a8a0ffc1" cid="PROP057" type="property" owner="1bf59f9466e544f2a3f8bbd9dfd56b62" creator="" creation-date="03/27/2024 01:27:19" visibility="undefined">
+      <structural-feature type="Library" type-id="Class:52506831438d4449994729803e309b01" />
+      <property aggregation="shared" />
+    </item>
+    <item id="fa83205ca46244ef88762b5095a7f11e" cid="PROP022" type="property" owner="275e2c81d5974e3f8c683f630f3ada35" creator="" creation-date="03/27/2024 01:24:56" visibility="private">
+      <structural-feature type="Member" type-id="Class:deb94ce747ca4b26a273ae0f432aa89e" />
+    </item>
+  </items>
+  <models>
+    <model id="p03033b81f2ec4bae88bca10a365803ba_132548245" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author>amirali fazeli</author>
+        </authors>
+        <description />
+        <creation-date>03/27/2024 00:48:03</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p332bb5344efd43c296c2680a511ab04b_747435043" name="ClassDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-2201,232" zoom="0.8">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>amirali fazeli</author>
+          </authors>
+          <description />
+          <creation-date>03/27/2024 00:48:03</creation-date>
+          <change-date>03/27/2024 03:46:32</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="5dc7363d90e9408b87dc513fdbb41087" cid="C006" type="class" name="Publication" creator="" creation-date="03/27/2024 01:19:43">
+            <owned-items />
+            <attributes>
+              <attribute id="af89b12015476487ea5c974d9c152adcd967" cid="PROP014" name="name" creation-date="03/27/2024 01:19:57" property-ref="34927288e5d4497dad9d17be8943b4f0" />
+              <attribute id="accceb1418bd14a0db21ee07f90859ad4351" cid="PROP015" name="author" creation-date="03/27/2024 01:19:58" property-ref="42ba77961ea645fab96fb52d288bb445" />
+              <attribute id="a36f275bf68224c54840d7ce3f48e6be0651" cid="PROP016" name="price" creation-date="03/27/2024 01:19:58" property-ref="4aebb092aaa245a5870c462e82b39ccf" />
+              <attribute id="a125334a36a1a43da9289bf992033988f924" cid="PROP017" name="language" creation-date="03/27/2024 01:19:58" property-ref="a081b1eca00340d2bf524b986644f534" />
+              <attribute id="a5db65ab872464928aed902bba2ec9457101" cid="PROP085" name="amount" creation-date="03/27/2024 17:44:41" property-ref="358432adf38f42edafae16e0c53a92e2" />
+            </attributes>
+            <operations>
+              <operation id="oef5f1d29de3e420693b50a10698c0791634" cid="OP043" name="Publication" creation-date="03/27/2024 01:19:55" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p5cd70ca059f844d5bdfb5f34af364ed7" name="name" type="String" type-id="Uml.String" creation-date="03/27/2024 01:20:35" />
+                  <parameter id="p3f1e56cb4d0b436b982fc991e7e8474e" name="author" type="String" type-id="Uml.String" creation-date="03/27/2024 01:20:35" />
+                  <parameter id="p3968c63a917f410e90203bafa888fe32" name="language" type="String" type-id="Uml.String" creation-date="03/27/2024 01:20:35" />
+                  <parameter id="pbd18f4c63f5f4d98bdb80dffb2b8dc2f" name="price" type="int" type-id="int" creation-date="03/27/2024 01:20:35" />
+                </parameters>
+              </operation>
+              <operation id="o601375bd877241d093c9a4e8ae4c5621479" cid="OP044" name="getName" creation-date="03/27/2024 01:20:35" type="String" type-id="Uml.String" visibility="public" />
+              <operation id="o512607bbf36944a18d9bba47962eaef9637" cid="OP045" name="getAuthor" creation-date="03/27/2024 01:20:35" type="String" type-id="Uml.String" visibility="public" />
+              <operation id="ob196b8f0a7d5403cb4f8507536759d6a924" cid="OP046" name="getPrice" creation-date="03/27/2024 01:20:35" type="int" type-id="int" visibility="public" />
+              <operation id="of3ccc9b1d3c24418a9bc3a6835df9ade249" cid="OP047" name="getLanguage" creation-date="03/27/2024 01:20:36" type="String" type-id="Uml.String" visibility="public" />
+            </operations>
+          </item>
+          <item id="34927288e5d4497dad9d17be8943b4f0" cid="PROP014" type="property" name="name" owner="5dc7363d90e9408b87dc513fdbb41087" creator="" creation-date="03/27/2024 01:19:57" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="9aa9ad6abbcf444aa48a53b1eac4040b" cid="PROP006" type="property" name="name" owner="deb94ce747ca4b26a273ae0f432aa89e" creator="" creation-date="03/27/2024 01:12:41" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="e3e5fe25936f49ff86cc7e0f39ead2f2" cid="C008" type="class" name="Book" creator="" creation-date="03/27/2024 01:23:41">
+            <owned-items />
+            <attributes>
+              <attribute id="a402e83b01b3e486f8101dd3b11241455181" cid="PROP020" name="ISBN" creation-date="03/27/2024 01:23:48" property-ref="e75644403dbd4920ac02e319b309f940" />
+            </attributes>
+            <operations>
+              <operation id="o08f78fe7965f43f2b8e31fd0889072f1248" cid="OP051" name="Book" creation-date="03/27/2024 01:23:56" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p0b50f12326a44cef8d2ce75f92ea7adc" name="name" type="String" type-id="Uml.String" creation-date="03/27/2024 01:24:10" />
+                  <parameter id="p10fac5f1ba0c437fbc4b2802cb63b5fc" name="ISBN" type="int" type-id="int" creation-date="03/27/2024 01:24:10" />
+                  <parameter id="p64239ec3ac884b849b7f661264737629" name="author" type="String" type-id="Uml.String" creation-date="03/27/2024 01:24:10" />
+                  <parameter id="p57921103f9084a50922f962b494997c1" name="language" type="String" type-id="Uml.String" creation-date="03/27/2024 01:24:10" />
+                  <parameter id="peac28443011b4023b214c6b8e238cce9" name="price" type="int" type-id="int" creation-date="03/27/2024 01:24:10" />
+                </parameters>
+              </operation>
+              <operation id="o7ac72f81dae44eaa80a44dcbebba812c563" cid="OP052" name="getISBN" creation-date="03/27/2024 01:23:56" type="int" type-id="int" visibility="public" />
+            </operations>
+          </item>
+          <item id="219101dd44e34ab6938e426ccc1c3240" cid="PROP007" type="property" name="ID" owner="deb94ce747ca4b26a273ae0f432aa89e" creator="" creation-date="03/27/2024 01:12:41" visibility="private">
+            <structural-feature type="int" type-id="int" />
+          </item>
+          <item id="89ae9762dc974a898073211b8b41a8aa" cid="REL021" type="relationship" creator="" creation-date="03/27/2024 01:28:35" from="52506831438d4449994729803e309b01" to="e3e5fe25936f49ff86cc7e0f39ead2f2" visibility="package">
+            <owned-items />
+            <relation from="52506831438d4449994729803e309b01" to="e3e5fe25936f49ff86cc7e0f39ead2f2" derived="false">
+              <start-role id="umlar-8b33da93-4f82-45d3-ad24-697bc7f84cab" name="" navigability="" association-type="aggregation" visibility="undefined" property-ref="7a7fb9b664d34995b5dd070333d0ef61" />
+              <end-role id="umlar-70754aaf-a42a-4b53-9a2c-e2769f8dcf7e" name="" navigability="" association-type="association" visibility="undefined" property-ref="154766d82c184c5cbc715c64a5137e99" />
+            </relation>
+          </item>
+          <item id="3c609dac90fc4298bc14ca4bbdba2ca4" cid="REL017" type="relationship" creator="" creation-date="03/27/2024 01:27:03" from="4fd7c4c51cf94829bc6964935fb1e0e0" to="a796e282abbc4d64ade6e9c51d7e9361" visibility="package">
+            <owned-items />
+            <relation from="4fd7c4c51cf94829bc6964935fb1e0e0" to="a796e282abbc4d64ade6e9c51d7e9361" derived="false">
+              <start-role id="umlar-0a283ea1-8aa8-4222-8c37-44b610233075" name="" navigability="" association-type="association" visibility="undefined" property-ref="cd36f45667c942ccafc6c50ab2cdb533" />
+              <end-role id="umlar-fd76b575-4cfe-4826-831a-aa7601c9a94c" name="" navigability="" association-type="association" visibility="undefined" property-ref="79f921b5824c46ff8316931d52ce7d9f" />
+            </relation>
+          </item>
+          <item id="deb94ce747ca4b26a273ae0f432aa89e" cid="C004" type="class" name="Member" creator="" creation-date="03/27/2024 01:12:19">
+            <owned-items />
+            <attributes>
+              <attribute id="ae95b25ff49cc4f8a8d33fc481f03ecb5112" cid="PROP006" name="name" creation-date="03/27/2024 01:12:41" property-ref="9aa9ad6abbcf444aa48a53b1eac4040b" />
+              <attribute id="a499504d8cf2c4820840e4f364307d76c473" cid="PROP007" name="ID" creation-date="03/27/2024 01:12:41" property-ref="219101dd44e34ab6938e426ccc1c3240" />
+              <attribute id="a01de8f9aad1344d18c4a96fed59ff2e7608" cid="PROP008" name="balance" creation-date="03/27/2024 01:12:41" property-ref="2873bd38030f4d00830a0f4a69c5bc5c" />
+              <attribute id="ac634489039814df6a16c71ae3f6be144690" cid="PROP009" name="borrowedBooks" creation-date="03/27/2024 01:16:20" property-ref="eb1bca192a4a4689b1163bb68696b5bb" />
+              <attribute id="a5ac52b25aefa484d8a8dc171f55d6115826" cid="PROP010" name="borrowed Magazines" creation-date="03/27/2024 01:16:21" property-ref="ec21517cca584026beee60502975f059" />
+            </attributes>
+            <operations>
+              <operation id="o5c5178f82187475db732d35ed8cb92a6837" cid="OP022" name="Member" creation-date="03/27/2024 01:12:37" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p739262be8c87446c8ef535acddfb5dd1" name="name" type="String" type-id="Uml.String" creation-date="03/27/2024 01:13:26" />
+                  <parameter id="p71b3fc3e677a46b893c9c67f558c99d9" name="ID" type="int" type-id="int" creation-date="03/27/2024 01:13:26" />
+                </parameters>
+              </operation>
+              <operation id="o8f37f12216c04c4294290773c68be0a5558" cid="OP023" name="setBalance" creation-date="03/27/2024 01:12:38" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p12db43f2929541f3b2b3bddd402fb269" name="amount" type="int" type-id="int" creation-date="03/27/2024 01:13:31" />
+                </parameters>
+              </operation>
+              <operation id="o83ffc4916f2f41529eec985bebd751fa868" cid="OP024" name="getBalance" creation-date="03/27/2024 01:12:38" type="int" type-id="int" visibility="public" />
+              <operation id="o554a4951e2f64db783474f906248f820234" cid="OP025" name="getName" creation-date="03/27/2024 01:12:39" type="String" type-id="Uml.String" visibility="public" />
+              <operation id="o44ccb997ffc8451585b5a99f6cc3b155825" cid="OP026" name="getID" creation-date="03/27/2024 01:14:05" type="int" type-id="int" visibility="public" />
+              <operation id="o6587cf51571d4e8da6d90b75eab5e6b9241" cid="OP027" name="borrowBook" creation-date="03/27/2024 01:14:06" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p2a2b6ecf10df4e2aa97391a818a2d25b" name="book" type="Book" type-id="Book" creation-date="03/27/2024 01:14:25" />
+                </parameters>
+              </operation>
+              <operation id="o0a530937b0364d0893e5a321bfff6f6d684" cid="OP028" name="borrowMagazine" creation-date="03/27/2024 01:14:06" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p9a1802b63dbc461087d76c9ae29c3c1f" name="magazine" type="Magazine" type-id="Magazine" creation-date="03/27/2024 01:14:30" />
+                </parameters>
+              </operation>
+              <operation id="ob75ddaa7049c4e0a8c3ac9b341e9d96b52" cid="OP029" name="getBookFromBorrowedBooks" creation-date="03/27/2024 01:14:07" type="Book" type-id="Book" visibility="public">
+                <parameters>
+                  <parameter id="pf056315cdff74c73b65e8bdfa3187613" name="ISBN" type="int" type-id="int" creation-date="03/27/2024 01:14:35" />
+                </parameters>
+              </operation>
+              <operation id="o395577613c264b0ab9a17752263aa442466" cid="OP030" name="getMagazineFromBorrowed Magazines" creation-date="03/27/2024 01:14:07" type="Magazine" type-id="Magazine" visibility="public">
+                <parameters>
+                  <parameter id="pf1738ed2d3fc42c594faf07c402559e2" name="ISSN" type="int" type-id="int" creation-date="03/27/2024 01:14:40" />
+                  <parameter id="p800ed7ead8e942839a3ec918664589e9" name="number" type="int" type-id="int" creation-date="03/27/2024 01:14:40" />
+                </parameters>
+              </operation>
+              <operation id="o21ef453d4d1b4b7c8af83f63e81797e6841" cid="OP031" name="returnBook" creation-date="03/27/2024 01:14:07" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="pe07091239aea4d818a8cc2ae2211cb17" name="book" type="Book" type-id="Book" creation-date="03/27/2024 01:14:43" />
+                </parameters>
+              </operation>
+              <operation id="oe4dc5b998f75485d9958020a5d743c15228" cid="OP032" name="returnMagazine" creation-date="03/27/2024 01:15:06" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="pe47b989abc42493f95996d08c38d9d7a" name="magazine" type="Magazine" type-id="Magazine" creation-date="03/27/2024 01:15:25" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="ec21517cca584026beee60502975f059" cid="PROP010" type="property" name="borrowed Magazines" owner="deb94ce747ca4b26a273ae0f432aa89e" creator="" creation-date="03/27/2024 01:16:21" visibility="private">
+            <structural-feature type="ArrayList&lt;Magazine&gt;" type-id="ArrayList&lt;Magazine&gt;" />
+          </item>
+          <item id="eb1bca192a4a4689b1163bb68696b5bb" cid="PROP009" type="property" name="borrowedBooks" owner="deb94ce747ca4b26a273ae0f432aa89e" creator="" creation-date="03/27/2024 01:16:20" visibility="private">
+            <structural-feature type="ArrayList&lt;Book&gt;" type-id="ArrayList&lt;Book&gt;" />
+          </item>
+          <item id="4fd7c4c51cf94829bc6964935fb1e0e0" cid="C002" type="class" name="ProgramController" creator="" creation-date="03/27/2024 00:52:23">
+            <owned-items />
+            <attributes>
+              <attribute id="adf4afbb7be4c48ca859b4ef847992a6b512" cid="PROP003" name="library" creation-date="03/27/2024 00:52:35" property-ref="2cb02e3bf14c4cd1ab56f7249261e816" />
+            </attributes>
+            <operations>
+              <operation id="of3e76af1f5c84ed8a3e09cbbd414e35c56" cid="OP002" name="run" creation-date="03/27/2024 00:56:48" type="void" type-id="void" visibility="public" />
+              <operation id="od647941ff132498cab7eec428d84dd7e16" cid="OP003" name="getCommandMatche" creation-date="03/27/2024 00:57:20" type="Matcher ()" type-id="Matcher ()" visibility="private">
+                <parameters>
+                  <parameter id="pb7ef1c6f9e23446db48234a75c253f9a" name="input" type="String" type-id="Uml.String" creation-date="03/27/2024 00:57:41" />
+                  <parameter id="pf18d65c319b448eb886a8226a6de11a0" name="ragex" type="String" type-id="Uml.String" creation-date="03/27/2024 00:57:41" />
+                </parameters>
+              </operation>
+              <operation id="o8e680b2dc43543b09e50e4d75c3352eb484" cid="OP004" name="addAccount" creation-date="03/27/2024 00:57:20" type="void" type-id="void" visibility="private">
+                <parameters>
+                  <parameter id="p395ce852b0284cf097203344283abd45" name="matcher" type="Matcher" type-id="Matcher" creation-date="03/27/2024 01:07:54" />
+                </parameters>
+              </operation>
+              <operation id="of08a8809bbb64e6887e551543011e7c8630" cid="OP005" name="increaseBalance" creation-date="03/27/2024 00:57:20" type="void" type-id="void" visibility="private">
+                <parameters>
+                  <parameter id="p264819e3bbb140a1b555f42b9e86a740" name="matcher" type="Matcher" type-id="Matcher" creation-date="03/27/2024 01:08:17" />
+                </parameters>
+              </operation>
+              <operation id="o926ebe5e978445668f2b0a97e6178f1b787" cid="OP006" name="cashout" creation-date="03/27/2024 00:57:20" type="void" type-id="void" visibility="private">
+                <parameters>
+                  <parameter id="pd98b3225e2674f93aaa40e100c98a63d" name="matcher" type="Matcher" type-id="Matcher" creation-date="03/27/2024 01:08:39" />
+                </parameters>
+              </operation>
+              <operation id="o6d470efe225640b9a31ac88a508d94e8959" cid="OP007" name="addBook" creation-date="03/27/2024 00:57:20" type="void" type-id="void" visibility="private">
+                <parameters>
+                  <parameter id="pca32659785b5431a85297353c1399af4" name="matcher" type="Matcher" type-id="Matcher" creation-date="03/27/2024 01:08:54" />
+                </parameters>
+              </operation>
+              <operation id="o84f76dcb719b42d5858284eef566c6bc102" cid="OP008" name="addMagazine" creation-date="03/27/2024 00:57:21" type="void" type-id="void" visibility="private">
+                <parameters>
+                  <parameter id="p8304b6cd06c74301ac1b094da988f1ec" name="matcher" type="Matcher" type-id="Matcher" creation-date="03/27/2024 01:09:09" />
+                </parameters>
+              </operation>
+              <operation id="of73b3c92ac4b4169b9af77826816468c865" cid="OP009" name="borrowBook" creation-date="03/27/2024 01:07:54" type="void" type-id="void" visibility="private">
+                <parameters>
+                  <parameter id="p4350d6edb7404d0bb9dc9c5449e9cc71" name="matcher" type="Matcher" type-id="Matcher" creation-date="03/27/2024 01:09:18" />
+                </parameters>
+              </operation>
+              <operation id="o57e8064adf3b4da1b427760ab6f53ed3712" cid="OP010" name="borrowMagazine" creation-date="03/27/2024 01:09:18" type="void" type-id="void" visibility="private">
+                <parameters>
+                  <parameter id="pd5b0d9521a134dccb9baf00ac646c086" name="matcher" type="Matcher" type-id="Matcher" creation-date="03/27/2024 01:09:32" />
+                </parameters>
+              </operation>
+              <operation id="o74a536f089924e06981e6b017656f7b9196" cid="OP011" name="returnBook" creation-date="03/27/2024 01:09:19" type="void" type-id="void" visibility="private">
+                <parameters>
+                  <parameter id="p504a4ec833fb4522a15cec78335c60b9" name="matcher" type="Matcher" type-id="Matcher" creation-date="03/27/2024 01:09:37" />
+                </parameters>
+              </operation>
+              <operation id="o5b8e1d6a5f8e46b295f66e330aaa37db330" cid="OP012" name="returnMagazine" creation-date="03/27/2024 01:09:19" type="void" type-id="void" visibility="private">
+                <parameters>
+                  <parameter id="pf0f3d74a93674ba79640ff29a31055ad" name="matcher" type="Matcher" type-id="Matcher" creation-date="03/27/2024 01:09:41" />
+                </parameters>
+              </operation>
+              <operation id="o539bc6ad9322472fa9eb0eb0a994d249487" cid="OP013" name="donateBook" creation-date="03/27/2024 01:09:19" type="void" type-id="void" visibility="private">
+                <parameters>
+                  <parameter id="paa0b304adcc64c2b9905f32229152660" name="matcher" type="Matcher" type-id="Matcher" creation-date="03/27/2024 01:09:46" />
+                </parameters>
+              </operation>
+              <operation id="o98936dff46354467b1329bc8052fe66c248" cid="OP014" name="returnMagazineAndBorrowNext" creation-date="03/27/2024 01:09:21" type="void" type-id="void" visibility="private">
+                <parameters>
+                  <parameter id="pa78767306cb44eccbbac86b0e8db9bd8" name="matcher" type="Matcher" type-id="Matcher" creation-date="03/27/2024 01:09:53" />
+                </parameters>
+              </operation>
+              <operation id="o4e51361ba2714acfaac7a445cb24ac87898" cid="OP015" name="printBooks" creation-date="03/27/2024 01:09:53" type="void" type-id="void" visibility="private">
+                <parameters>
+                  <parameter id="p9c406998f1c84e008b9ce2bb3f178060" name="matcher" type="Matcher" type-id="Matcher" creation-date="03/27/2024 01:10:07" />
+                </parameters>
+              </operation>
+              <operation id="o188035592a0c40d4918645b618fc8c14100" cid="OP016" name="printMagazines" creation-date="03/27/2024 01:09:56" type="void" type-id="void" visibility="private">
+                <parameters>
+                  <parameter id="pb06b57f84a4e41959d1ad5ca1870555d" name="matcher" type="Matcher" type-id="Matcher" creation-date="03/27/2024 01:10:09" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="2cb02e3bf14c4cd1ab56f7249261e816" cid="PROP003" type="property" name="library" owner="4fd7c4c51cf94829bc6964935fb1e0e0" creator="" creation-date="03/27/2024 00:52:35" visibility="private">
+            <structural-feature type="Library" type-id="Library" />
+          </item>
+          <item id="2873bd38030f4d00830a0f4a69c5bc5c" cid="PROP008" type="property" name="balance" owner="deb94ce747ca4b26a273ae0f432aa89e" creator="" creation-date="03/27/2024 01:12:41" visibility="private">
+            <structural-feature type="int" type-id="int" />
+          </item>
+          <item id="a081b1eca00340d2bf524b986644f534" cid="PROP017" type="property" name="language" owner="5dc7363d90e9408b87dc513fdbb41087" creator="" creation-date="03/27/2024 01:19:58" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="358432adf38f42edafae16e0c53a92e2" cid="PROP085" type="property" name="amount" owner="5dc7363d90e9408b87dc513fdbb41087" creator="" creation-date="03/27/2024 17:44:41" visibility="private">
+            <structural-feature type="int" type-id="int" />
+          </item>
+          <item id="dfc3fc96f12d4c40afd5bb012c7479b3" cid="REL016" type="relationship" creator="" creation-date="03/27/2024 01:26:36" from="4fd7c4c51cf94829bc6964935fb1e0e0" to="52506831438d4449994729803e309b01" visibility="package">
+            <owned-items />
+            <relation from="4fd7c4c51cf94829bc6964935fb1e0e0" to="52506831438d4449994729803e309b01" derived="false">
+              <start-role id="umlar-a393e652-bcea-40cf-b3ed-6622648cd204" name="" navigability="" association-type="aggregation" visibility="undefined" property-ref="3f6e4735bb544906a0ab97e465861ba2" />
+              <end-role id="umlar-d92e1d0c-7d7f-4f2f-8101-18bbb97e263d" name="" navigability="" association-type="association" visibility="undefined" property-ref="bb6ee007873444c7ae3734ba865660c7" />
+            </relation>
+          </item>
+          <item id="67d398c735b64dd1953713aefc88a06e" cid="PROP012" type="property" name="magazines" owner="52506831438d4449994729803e309b01" creator="" creation-date="03/27/2024 01:17:12" visibility="private">
+            <structural-feature type="ArrayList&lt;Magazine&gt;" type-id="ArrayList&lt;Magazine&gt;" />
+          </item>
+          <item id="1bf59f9466e544f2a3f8bbd9dfd56b62" cid="REL020" type="relationship" creator="" creation-date="03/27/2024 01:27:19" from="52506831438d4449994729803e309b01" to="a796e282abbc4d64ade6e9c51d7e9361" visibility="package">
+            <owned-items />
+            <relation from="52506831438d4449994729803e309b01" to="a796e282abbc4d64ade6e9c51d7e9361" derived="false">
+              <start-role id="umlar-ba20c905-57aa-4f14-9b2d-8fce4dbd6db8" name="" navigability="" association-type="aggregation" visibility="undefined" property-ref="1d3b3b0e024841b7945490e3a8a0ffc1" />
+              <end-role id="umlar-2532f74a-d105-427f-b13a-104b6c4aabaf" name="" navigability="" association-type="association" visibility="undefined" property-ref="e43aec71642b47ee94bf46bbcbaaba1f" />
+            </relation>
+          </item>
+          <item id="4aebb092aaa245a5870c462e82b39ccf" cid="PROP016" type="property" name="price" owner="5dc7363d90e9408b87dc513fdbb41087" creator="" creation-date="03/27/2024 01:19:58" visibility="private">
+            <structural-feature type="int" type-id="int" />
+          </item>
+          <item id="a6477927ad2046a78617a4331f16fdab" cid="PROP013" type="property" name="members" owner="52506831438d4449994729803e309b01" creator="" creation-date="03/27/2024 01:17:13" visibility="private">
+            <structural-feature type="ArrayList&lt;Member&gt;" type-id="ArrayList&lt;Member&gt;" />
+          </item>
+          <item id="c5f34a82bab24a298f4d5ba63aebe549" cid="REL026" type="relationship" creator="" creation-date="03/27/2024 01:31:18" from="4fd7c4c51cf94829bc6964935fb1e0e0" to="e3e5fe25936f49ff86cc7e0f39ead2f2" visibility="package">
+            <owned-items />
+            <relation from="4fd7c4c51cf94829bc6964935fb1e0e0" to="e3e5fe25936f49ff86cc7e0f39ead2f2" derived="false">
+              <start-role id="umlar-778b23e3-6bde-44e0-92fb-e65713db5227" name="" navigability="" association-type="association" visibility="undefined" property-ref="b1788ec9cbe949918066055f1b5b93c1" />
+              <end-role id="umlar-a0170ad7-676a-4bbe-9625-d19e977cff2e" name="" navigability="" association-type="association" visibility="undefined" property-ref="3277fb99a5464eda99cf588c5ebe18c3" />
+            </relation>
+          </item>
+          <item id="2b9bb58889e34f9bb36ec7ac872e8156" cid="GNR004" type="generalization" creator="" creation-date="03/27/2024 01:28:19" from="e3e5fe25936f49ff86cc7e0f39ead2f2" to="5dc7363d90e9408b87dc513fdbb41087" visibility="package" />
+          <item id="027aa8ae9e344d7ab7f18d938688ed22" cid="PROP011" type="property" name="books" owner="52506831438d4449994729803e309b01" creator="" creation-date="03/27/2024 01:17:11" visibility="private">
+            <structural-feature type="ArrayList&lt;Book&gt;" type-id="ArrayList&lt;Book&gt;" />
+          </item>
+          <item id="52506831438d4449994729803e309b01" cid="C005" type="class" name="Library" creator="" creation-date="03/27/2024 01:17:03">
+            <owned-items />
+            <attributes>
+              <attribute id="a3c9ce23770cf4c1682b758a991781989987" cid="PROP011" name="books" creation-date="03/27/2024 01:17:11" property-ref="027aa8ae9e344d7ab7f18d938688ed22" />
+              <attribute id="af4e3af5f609041138adff5710bdd8c3f661" cid="PROP012" name="magazines" creation-date="03/27/2024 01:17:12" property-ref="67d398c735b64dd1953713aefc88a06e" />
+              <attribute id="a68aac5e1e3484ec2ac81ead8b564275174" cid="PROP013" name="members" creation-date="03/27/2024 01:17:13" property-ref="a6477927ad2046a78617a4331f16fdab" />
+            </attributes>
+            <operations>
+              <operation id="o4226ea1a9db54faebaf47906ea087170796" cid="OP033" name="addBook" creation-date="03/27/2024 01:18:28" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p04656fca1e6a4166a80c8212f9d5214e" name="book" type="Book" type-id="Book" creation-date="03/27/2024 01:18:37" />
+                </parameters>
+              </operation>
+              <operation id="o76f2585206134bd684e984d1c69af1a4177" cid="OP034" name="addMagazine" creation-date="03/27/2024 01:18:29" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="pf997e5453f344e49902ede3406b68c12" name="magazine" type="Magazine" type-id="Magazine" creation-date="03/27/2024 01:18:41" />
+                </parameters>
+              </operation>
+              <operation id="o8c078582feb043d9b10c6f78bc5e1812376" cid="OP035" name="addMember" creation-date="03/27/2024 01:18:29" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="pd637bac05c9a46108cb4aaf245734b04" name="member" type="Member" type-id="Class:deb94ce747ca4b26a273ae0f432aa89e" creation-date="03/27/2024 01:18:46" />
+                </parameters>
+              </operation>
+              <operation id="ob3b7e3b5c6a14a8c9890b7d95d870c8a534" cid="OP036" name="getMemberByID" creation-date="03/27/2024 01:18:29" type="Member" type-id="Class:deb94ce747ca4b26a273ae0f432aa89e" visibility="public">
+                <parameters>
+                  <parameter id="p9cf23c55c312478cb9eeae3d736bd828" name="ID" type="int" type-id="int" creation-date="03/27/2024 01:18:50" />
+                </parameters>
+              </operation>
+              <operation id="o8fbf6c7a31cd47bcbb8ab39116121995683" cid="OP037" name="getBook" creation-date="03/27/2024 01:18:29" type="Book" type-id="Book" visibility="public">
+                <parameters>
+                  <parameter id="p1716caddff85485fbf49295e09e2bd98" name="ISBN" type="int" type-id="int" creation-date="03/27/2024 01:18:54" />
+                </parameters>
+              </operation>
+              <operation id="o1a48787b2b314525bcb7290beeb78fd0828" cid="OP038" name="getMagazine" creation-date="03/27/2024 01:18:29" type="Magazine" type-id="Magazine" visibility="public">
+                <parameters>
+                  <parameter id="p5a920ec6bf0c41219859bffbf68d7fa0" name="ISSN" type="int" type-id="int" creation-date="03/27/2024 01:18:58" />
+                  <parameter id="p183f2845379c41d89859d1c4b2ae6625" name="number" type="int" type-id="int" creation-date="03/27/2024 01:18:58" />
+                </parameters>
+              </operation>
+              <operation id="o1d5e3b68d30b4badad815dacdf9422af958" cid="OP039" name="removeBook" creation-date="03/27/2024 01:18:29" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p2d4076007be240888bffc408db51a429" name="book" type="Book" type-id="Book" creation-date="03/27/2024 01:19:08" />
+                </parameters>
+              </operation>
+              <operation id="o4d2be0c04e334bfd936054a58d51cd6489" cid="OP040" name="removeMagazine" creation-date="03/27/2024 01:18:30" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="pb76a4989952c46a18aaf1db7e64bffd6" name="magazine" type="Magazine" type-id="Magazine" creation-date="03/27/2024 01:19:15" />
+                </parameters>
+              </operation>
+              <operation id="oaaeb3bf7c7834e4da8eb52c5ac338649258" cid="OP041" name="getBooks" creation-date="03/27/2024 01:18:30" type="ArrayList&lt;Book&gt;" type-id="ArrayList&lt;Book&gt;" visibility="public" />
+              <operation id="o385be677a029425eac4dabdfad2fa3ae989" cid="OP042" name="getMagazines" creation-date="03/27/2024 01:19:20" type="ArrayList&lt;Magazine&gt;" type-id="ArrayList&lt;Magazine&gt;" visibility="public" />
+            </operations>
+          </item>
+          <item id="e75644403dbd4920ac02e319b309f940" cid="PROP020" type="property" name="ISBN" owner="e3e5fe25936f49ff86cc7e0f39ead2f2" creator="" creation-date="03/27/2024 01:23:48" visibility="private">
+            <structural-feature type="int" type-id="int" />
+          </item>
+          <item id="aafa78b7625a4bc29b83f169b4f40c6a" cid="C003" type="class" name="Main" creator="" creation-date="03/27/2024 01:10:55">
+            <operations>
+              <operation id="o21aba228a48e4683b1e6241a6863fc5654" cid="OP021" name="main" creation-date="03/27/2024 01:11:07" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="pdaf15e3836c04810afa2be66e504b027" name="args" type="String" type-id="Uml.String" creation-date="03/27/2024 01:11:21" multiplicity="*" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="0c831d3f519940509233d21b86a3d27e" cid="PROP018" type="property" name="ISSN" owner="a796e282abbc4d64ade6e9c51d7e9361" creator="" creation-date="03/27/2024 01:21:35" visibility="private">
+            <structural-feature type="int" type-id="int" />
+          </item>
+          <item id="0ced2ffcb6f14925ba0546b4e7267298" cid="REL027" type="relationship" creator="" creation-date="03/27/2024 01:31:57" from="52506831438d4449994729803e309b01" to="deb94ce747ca4b26a273ae0f432aa89e" visibility="package">
+            <owned-items />
+            <relation from="52506831438d4449994729803e309b01" to="deb94ce747ca4b26a273ae0f432aa89e" derived="false">
+              <start-role id="umlar-fe37f2ac-a9a2-493c-adcc-9e638664dbb5" name="" navigability="" association-type="aggregation" visibility="undefined" property-ref="e0915cabd26f47fc965ac08bc68d1f6e" />
+              <end-role id="umlar-589eb45b-d5c0-4a2c-ad60-92abae169889" name="" navigability="" association-type="association" visibility="undefined" property-ref="d99c8eac2db04e79a65a917491364451" />
+            </relation>
+          </item>
+          <item id="a796e282abbc4d64ade6e9c51d7e9361" cid="C007" type="class" name="Magazine" creator="" creation-date="03/27/2024 01:21:28">
+            <owned-items />
+            <attributes>
+              <attribute id="ae5c9051ee5b64098bf4f2c21edae3e90714" cid="PROP018" name="ISSN" creation-date="03/27/2024 01:21:35" property-ref="0c831d3f519940509233d21b86a3d27e" />
+              <attribute id="a6caedb185e9149218a3f6225d3230d95855" cid="PROP019" name="number" creation-date="03/27/2024 01:21:35" property-ref="de27b2cae05c4c078312ddacb801b663" />
+            </attributes>
+            <operations>
+              <operation id="o442cfcb38f0b4c1d8f6f9ddb5630c9fa637" cid="OP048" name="Magazine" creation-date="03/27/2024 01:22:40" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pfcaa21b3f94a46ab87965d5456c04f89" name="name" type="String" type-id="Uml.String" creation-date="03/27/2024 01:22:52" />
+                  <parameter id="p51119e95f9e54bc0bc6a34f3219c56e1" name="ISSN" type="int" type-id="int" creation-date="03/27/2024 01:22:52" />
+                  <parameter id="p5a978947352a4c4d92daaf8343d9b7d9" name="author" type="String" type-id="Uml.String" creation-date="03/27/2024 01:22:52" />
+                  <parameter id="p9fdaf3cebdea4c6ba0f23dabe6b9f8b1" name="language" type="String" type-id="Uml.String" creation-date="03/27/2024 01:22:52" />
+                  <parameter id="pf87ec3c2bd064e5d9238b92b92dd9764" name="price" type="int" type-id="int" creation-date="03/27/2024 01:22:52" />
+                  <parameter id="p5158e8ed77284ba487da094d718004e5" name="number" type="int" type-id="int" creation-date="03/27/2024 01:22:52" />
+                </parameters>
+              </operation>
+              <operation id="o662f3293a4a744539db9cb62bbc76c5a72" cid="OP049" name="getISSN" creation-date="03/27/2024 01:22:41" type="int" type-id="int" visibility="public" />
+              <operation id="of29b30cf57744684a062be0d1f74077c285" cid="OP050" name="getNumber" creation-date="03/27/2024 01:22:42" type="int" type-id="int" visibility="public" />
+            </operations>
+          </item>
+          <item id="42ba77961ea645fab96fb52d288bb445" cid="PROP015" type="property" name="author" owner="5dc7363d90e9408b87dc513fdbb41087" creator="" creation-date="03/27/2024 01:19:58" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="275e2c81d5974e3f8c683f630f3ada35" cid="REL002" type="relationship" creator="" creation-date="03/27/2024 01:24:56" from="4fd7c4c51cf94829bc6964935fb1e0e0" to="deb94ce747ca4b26a273ae0f432aa89e" visibility="package">
+            <owned-items />
+            <relation from="4fd7c4c51cf94829bc6964935fb1e0e0" to="deb94ce747ca4b26a273ae0f432aa89e" derived="false">
+              <start-role id="umlar-04324497-59a5-4256-9f18-831e98758b1b" name="" navigability="" association-type="association" visibility="private" property-ref="474884f9e61244788554edaa0cce4dca" />
+              <end-role id="umlar-7657e492-2c56-4a37-bb51-903ff5c10d6a" name="" navigability="" association-type="association" visibility="private" property-ref="fa83205ca46244ef88762b5095a7f11e" />
+            </relation>
+          </item>
+          <item id="22f9f6d9d2a44722a35401bd928a7672" cid="GNR002" type="generalization" creator="" creation-date="03/27/2024 01:28:03" from="a796e282abbc4d64ade6e9c51d7e9361" to="5dc7363d90e9408b87dc513fdbb41087" visibility="package" />
+          <item id="9ad4c036d5a64852a2b45effed8fd509" cid="REL001" type="relationship" creator="" creation-date="03/27/2024 01:12:09" from="aafa78b7625a4bc29b83f169b4f40c6a" to="4fd7c4c51cf94829bc6964935fb1e0e0" visibility="package">
+            <owned-items />
+            <relation from="aafa78b7625a4bc29b83f169b4f40c6a" to="4fd7c4c51cf94829bc6964935fb1e0e0" derived="false">
+              <start-role id="umlar-d8f4df69-b4f4-4623-ade6-e352de428820" name="" navigability="" association-type="association" visibility="private" property-ref="43c9ff5932b348efa3bc3eca8d0de8ad" />
+              <end-role id="umlar-7aff871e-1e11-46a1-be6d-c2e0027e1182" name="" navigability="" association-type="association" visibility="private" property-ref="b82fb116fcab4a4f8f8df2b51dfcaffb" />
+            </relation>
+          </item>
+          <item id="de27b2cae05c4c078312ddacb801b663" cid="PROP019" type="property" name="number" owner="a796e282abbc4d64ade6e9c51d7e9361" creator="" creation-date="03/27/2024 01:21:35" visibility="private">
+            <structural-feature type="int" type-id="int" />
+          </item>
+        </abstract-items>
+        <layer id="c059458c96d8493ba2321fcb2478e65d" name="Default" visible="true" enabled="true" locked="false">
+          <item id="4fd7c4c51cf94829bc6964935fb1e0e0" iid="6dd2376b91ad4718b9d98faa7fa769f6" show-fields="true" creation-date="03/27/2024 00:52:23" order-index="0" type="entity">
+            <layout ax="-81.5" ay="57" awidth="484" aheight="346" x="-81.5" y="57" width="484" height="346" />
+            <classifier />
+            <class />
+          </item>
+          <item id="aafa78b7625a4bc29b83f169b4f40c6a" iid="7b387f4851024cf2a895a90bb9169c62" show-fields="true" creation-date="03/27/2024 01:10:55" order-index="2" type="entity">
+            <layout ax="53" ay="-176" awidth="215" aheight="61" x="53" y="-176" width="215" height="61" />
+            <classifier />
+            <class />
+          </item>
+          <item id="9ad4c036d5a64852a2b45effed8fd509" iid="4335ef59ce814949bc2a9824b2d7bbc8" show-fields="true" creation-date="03/27/2024 01:12:09" order-index="3" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-14.999996" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="160" y1="-115" x2="160" y2="57" start-border-pos="0.6255813953488372" end-border-pos="0.12474173307418823" start-local-pos="107" end-local-pos="241.5" name-position="0,20">
+              <points>
+                <point x="160" y="-115" />
+                <point x="160" y="57" />
+              </points>
+            </layout>
+            <relation from="aafa78b7625a4bc29b83f169b4f40c6a" from-iid="7b387f4851024cf2a895a90bb9169c62" to="4fd7c4c51cf94829bc6964935fb1e0e0" to-iid="6dd2376b91ad4718b9d98faa7fa769f6" />
+          </item>
+          <item id="deb94ce747ca4b26a273ae0f432aa89e" iid="1c826c1a53b4413d92ec8a1714e6bd5f" show-fields="true" creation-date="03/27/2024 01:12:19" order-index="4" type="entity">
+            <layout ax="-1109" ay="649.5" awidth="484" aheight="346" x="-1109" y="649.5" width="484" height="346" />
+            <classifier />
+            <class />
+          </item>
+          <item id="52506831438d4449994729803e309b01" iid="f0cda551776841eebfea2f99e0a4821b" show-fields="true" creation-date="03/27/2024 01:17:03" order-index="5" type="entity">
+            <layout ax="-484.5" ay="679" awidth="403" aheight="287" x="-484.5" y="679" width="403" height="287" />
+            <classifier />
+            <class />
+          </item>
+          <item id="5dc7363d90e9408b87dc513fdbb41087" iid="65da5b31f851420eb0f06d6bb02a1e5d" show-fields="true" creation-date="03/27/2024 01:19:43" order-index="6" type="entity">
+            <layout ax="209" ay="719.25" awidth="454" aheight="249" x="209" y="719.25" width="454" height="206.5" />
+            <classifier />
+            <class />
+          </item>
+          <item id="a796e282abbc4d64ade6e9c51d7e9361" iid="21d42d21266542e89640ecd24c6319c2" show-fields="true" creation-date="03/27/2024 01:21:28" order-index="7" type="entity">
+            <layout ax="-206" ay="1162" awidth="583" aheight="160" x="-206" y="1162" width="583" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="e3e5fe25936f49ff86cc7e0f39ead2f2" iid="07c8e4836c9a47eca861aa31676065ff" show-fields="true" creation-date="03/27/2024 01:23:41" order-index="8" type="entity">
+            <layout ax="647" ay="1141" awidth="484" aheight="160" x="647" y="1141" width="484" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="275e2c81d5974e3f8c683f630f3ada35" iid="d09bdd0d85b444cb823080f3c0ea9d99" creation-date="03/27/2024 01:24:56" order-index="9" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-82" y1="246" x2="-867" y2="650" start-border-pos="0.8634393063583815" end-border-pos="0.125" start-local-pos="189" end-local-pos="242" name-position="0,20">
+              <points>
+                <point x="-82" y="246" />
+                <point x="-867" y="650" />
+              </points>
+            </layout>
+            <relation from="4fd7c4c51cf94829bc6964935fb1e0e0" from-iid="6dd2376b91ad4718b9d98faa7fa769f6" to="deb94ce747ca4b26a273ae0f432aa89e" to-iid="1c826c1a53b4413d92ec8a1714e6bd5f" />
+          </item>
+          <item id="dfc3fc96f12d4c40afd5bb012c7479b3" iid="570e499640a0422eb0e9f20d1f7ddb20" creation-date="03/27/2024 01:26:36" order-index="10" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="31" y1="403" x2="-176" y2="679" start-border-pos="0.69212694404539" end-border-pos="0.19138241524140237" name-position="0,20">
+              <points>
+                <point x="31" y="403" />
+                <point x="-176" y="679" />
+              </points>
+            </layout>
+            <relation from="4fd7c4c51cf94829bc6964935fb1e0e0" from-iid="6dd2376b91ad4718b9d98faa7fa769f6" to="52506831438d4449994729803e309b01" to-iid="f0cda551776841eebfea2f99e0a4821b" />
+          </item>
+          <item id="3c609dac90fc4298bc14ca4bbdba2ca4" iid="630dca18b4e54147b918c375cecf2478" creation-date="03/27/2024 01:27:03" order-index="11" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="75" y1="403" x2="65" y2="1162" start-border-pos="0.6691632270812988" end-border-pos="0.11620926111936569" start-local-pos="156.5" end-local-pos="271" name-position="0,20">
+              <points>
+                <point x="75" y="403" />
+                <point x="71" y="766" />
+                <point x="65" y="1162" />
+              </points>
+            </layout>
+            <relation from="4fd7c4c51cf94829bc6964935fb1e0e0" from-iid="6dd2376b91ad4718b9d98faa7fa769f6" to="a796e282abbc4d64ade6e9c51d7e9361" to-iid="21d42d21266542e89640ecd24c6319c2" />
+          </item>
+          <item id="1bf59f9466e544f2a3f8bbd9dfd56b62" iid="932201be33f142fab97a9934cfbac4c6" creation-date="03/27/2024 01:27:19" order-index="12" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="-156" y1="966" x2="16" y2="1162" start-border-pos="0.5465171946485344" end-border-pos="0.09507474032315341" name-position="0,20">
+              <points>
+                <point x="-156" y="966" />
+                <point x="16" y="1162" />
+              </points>
+            </layout>
+            <relation from="52506831438d4449994729803e309b01" from-iid="f0cda551776841eebfea2f99e0a4821b" to="a796e282abbc4d64ade6e9c51d7e9361" to-iid="21d42d21266542e89640ecd24c6319c2" />
+          </item>
+          <item id="22f9f6d9d2a44722a35401bd928a7672" iid="c2097bf19d6647fa957d470f5748b82e" creation-date="03/27/2024 01:28:03" order-index="13" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="156" y1="1162" x2="327" y2="968" start-border-pos="0.15538240174282067" end-border-pos="0.6850469311953641" name-position="0,20">
+              <points>
+                <point x="156" y="1162" />
+                <point x="327" y="968" />
+              </points>
+            </layout>
+            <relation from="a796e282abbc4d64ade6e9c51d7e9361" from-iid="21d42d21266542e89640ecd24c6319c2" to="5dc7363d90e9408b87dc513fdbb41087" to-iid="65da5b31f851420eb0f06d6bb02a1e5d" />
+          </item>
+          <item id="2b9bb58889e34f9bb36ec7ac872e8156" iid="2ea98b71a21748db93cdae050464d375" creation-date="03/27/2024 01:28:19" order-index="14" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="793" y1="1141" x2="585" y2="968" start-border-pos="0.07534745902069344" end-border-pos="0.5429530206755919" name-position="0,20">
+              <points>
+                <point x="793" y="1141" />
+                <point x="585" y="968" />
+              </points>
+            </layout>
+            <relation from="e3e5fe25936f49ff86cc7e0f39ead2f2" from-iid="07c8e4836c9a47eca861aa31676065ff" to="5dc7363d90e9408b87dc513fdbb41087" to-iid="65da5b31f851420eb0f06d6bb02a1e5d" />
+          </item>
+          <item id="89ae9762dc974a898073211b8b41a8aa" iid="0e107916208946af9f3f46ce26dec88e" creation-date="03/27/2024 01:28:35" order-index="15" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="-82" y1="891" x2="654" y2="1141" start-border-pos="0.4344683391291921" end-border-pos="0.0036221653961938274" name-position="0,20">
+              <points>
+                <point x="-82" y="891" />
+                <point x="654" y="1141" />
+              </points>
+            </layout>
+            <relation from="52506831438d4449994729803e309b01" from-iid="f0cda551776841eebfea2f99e0a4821b" to="e3e5fe25936f49ff86cc7e0f39ead2f2" to-iid="07c8e4836c9a47eca861aa31676065ff" />
+          </item>
+          <item id="c5f34a82bab24a298f4d5ba63aebe549" iid="77a3a74b3431412d9e4a34cf07016c05" creation-date="03/27/2024 01:31:18" order-index="16" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="true" auto-path="" x1="402" y1="255" x2="1000" y2="1141" start-border-pos="0.39342485549132944" end-border-pos="0.18233471074380164" start-local-pos="198" end-local-pos="353" name-position="0,20">
+              <points>
+                <point x="402" y="255" />
+                <point x="728.5" y="755" />
+                <point x="1000" y="1141" />
+              </points>
+            </layout>
+            <relation from="4fd7c4c51cf94829bc6964935fb1e0e0" from-iid="6dd2376b91ad4718b9d98faa7fa769f6" from-field="of73b3c92ac4b4169b9af77826816468c865" to="e3e5fe25936f49ff86cc7e0f39ead2f2" to-iid="07c8e4836c9a47eca861aa31676065ff" />
+          </item>
+          <item id="0ced2ffcb6f14925ba0546b4e7267298" iid="0f0955011d0d441a92c47638a660ae29" creation-date="03/27/2024 01:31:57" order-index="17" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="true" auto-path="" x1="-484" y1="858" x2="-625" y2="866" start-border-pos="0.8436411149825784" end-border-pos="0.4067919075144509" start-local-pos="179" end-local-pos="216.5" name-position="0,20">
+              <points>
+                <point x="-484" y="858" />
+                <point x="-625" y="866" />
+              </points>
+            </layout>
+            <relation from="52506831438d4449994729803e309b01" from-iid="f0cda551776841eebfea2f99e0a4821b" from-field="o8fbf6c7a31cd47bcbb8ab39116121995683" to="deb94ce747ca4b26a273ae0f432aa89e" to-iid="1c826c1a53b4413d92ec8a1714e6bd5f" to-field="o44ccb997ffc8451585b5a99f6cc3b155825" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="14.30" multi-file="no" uid="simp6f0d7f2d29fe4a47bc448e5f333aed60" creation-date="04/03/2024 00:19:45">
+  <meta>
+    <name>(Project)</name>
+    <authors>amirali fazeli</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>11</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type="Unknown" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>12</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>20</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment" type="Comment" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment-connector" type="Comment Connector" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="containment" type="Containment" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="text" type="Text" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>24</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-d2732391d39141fd90bbdcef558d42fe" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>amirali</first-name>
+        <last-name>fazeli</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-58a0e1fe4802450599dd7238bc4ddb17" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="ArrayList&lt;booster&gt;" name="ArrayList&lt;booster&gt;" />
+        <type id="Class:3d8a0c4efac64d04b2965969e3e93241" name="currentUser" class-ref="3d8a0c4efac64d04b2965969e3e93241" />
+        <type id="Class:3beb9456dd4e4fe1ba8733324fa695ed" name="user" class-ref="3beb9456dd4e4fe1ba8733324fa695ed" />
+        <type id="ArrayList&lt;free_switc&gt;" name="ArrayList&lt;free_switc&gt;" />
+        <type id="void" name="void" />
+        <type id="int" name="int" />
+        <type id="ArrayList&lt;wrapped_brush&gt;" name="ArrayList&lt;wrapped_brush&gt;" />
+        <type id="Class:bcb335e1c5f341638c4ab4f1ca51f480" name="booster" class-ref="bcb335e1c5f341638c4ab4f1ca51f480" />
+        <type id="ArrayList&lt;user&gt;" name="ArrayList&lt;user&gt;" />
+        <type id="ArrayList&lt;color_bomb_brush&gt;" name="ArrayList&lt;color_bomb_brush&gt;" />
+        <type id="ArrayList&lt;lollipop_hammer&gt;" name="ArrayList&lt;lollipop_hammer&gt;" />
+        <type id="ArrayList&lt;striped_brush&gt;" name="ArrayList&lt;striped_brush&gt;" />
+        <type id="ArrayList&lt;free_switch&gt;" name="ArrayList&lt;free_switch&gt;" />
+      </types>
+    </custom-types>
+  </types>
+  <items>
+    <item id="2cfddb54e121475a90e7641f49b4361f" cid="PROP014" type="property" name="userbooster_color_bomb_brush" owner="3beb9456dd4e4fe1ba8733324fa695ed" creator="" creation-date="04/03/2024 01:02:32" visibility="private">
+      <structural-feature type="int" type-id="int" />
+    </item>
+    <item id="9464999683f448e897706fc1065ac7b1" cid="PROP012" type="property" name="moves" owner="3beb9456dd4e4fe1ba8733324fa695ed" creator="" creation-date="04/03/2024 01:00:14" visibility="private">
+      <structural-feature type="int" type-id="int" />
+    </item>
+    <item id="423910274fd34cd58afa5562d57b9770" cid="PROP013" type="property" name="userbooster_striped_brush" owner="3beb9456dd4e4fe1ba8733324fa695ed" creator="" creation-date="04/03/2024 01:02:32" visibility="private">
+      <structural-feature type="int" type-id="int" />
+    </item>
+    <item id="0e20c6e3fada42bbb864a243d982ebba" cid="PROP017" type="property" name="userbooster_wrapped_brush" owner="3beb9456dd4e4fe1ba8733324fa695ed" creator="" creation-date="04/03/2024 01:04:52" visibility="private">
+      <structural-feature type="int" type-id="int" />
+    </item>
+    <item id="656ef4a0f19741be8f086c2796e67928" cid="CMT001" type="comment" name="Comment" creator="" creation-date="04/03/2024 00:57:27">
+      <comment />
+    </item>
+    <item id="3beb9456dd4e4fe1ba8733324fa695ed" cid="C002" type="class" name="user" creation-date="04/03/2024 00:20:31" visibility="undefined">
+      <owned-items />
+      <attributes>
+        <attribute id="699acb12de4b45d889e3ca4652acbfb7" cid="PROP006" veid="a5c4068a5c53c43c598944965e69f3977814" name="username" creation-date="04/03/2024 00:22:14" property-ref="f797ed9b0e5d476badf07cbdaa1f2a55" />
+        <attribute id="638f6b583a404a02991edfee16c1a48d" cid="PROP007" veid="a5f8e3b2d0e72430fb184a49a5d238f3c213" name="password" creation-date="04/03/2024 00:22:15" property-ref="29805a9ad20049cc895a60d735dc835c" />
+        <attribute id="46afa198970f4c138341e22d36d1eb9b" cid="PROP008" veid="af12c8d5cc589480990d3e3036931d656402" name="nickname" creation-date="04/03/2024 00:22:15" property-ref="38f756aec82844ee9ad236102e3fefd9" />
+        <attribute id="770c7d2ac7e34cc29d5fd2992431b268" cid="PROP010" veid="a84b85877f59f40cb81ede1a7421f0f138" name="bonous" creation-date="04/03/2024 00:28:43" property-ref="9f6e363faebc4f528ac13f2e7302bdaa" />
+        <attribute id="affa2981b4e2848cb8f267b035280af67846" cid="PROP011" name="money" creation-date="04/03/2024 00:36:27" property-ref="3e3ae645d4b64123965a15790d3d14eb" />
+        <attribute id="a493bf4b558884d94902aefc88c98e471646" cid="PROP012" name="moves" creation-date="04/03/2024 01:00:14" property-ref="9464999683f448e897706fc1065ac7b1" />
+        <attribute id="9dde0f40fa7b4b64a66e4cd73e362465" cid="PROP009" veid="abd0b79cd3f8943de9a79dc93ff15c4fd111" name="userbooster_free_switch" creation-date="04/03/2024 00:27:30" property-ref="e672394786bf45aaa9443693d5e70450" />
+        <attribute id="a2f34ebe85597473288ddd059b8155a7b84" cid="PROP013" name="userbooster_striped_brush" creation-date="04/03/2024 01:02:32" property-ref="423910274fd34cd58afa5562d57b9770" />
+        <attribute id="ae28757fb60c84580bdbf90bca08ba5d3999" cid="PROP014" name="userbooster_color_bomb_brush" creation-date="04/03/2024 01:02:32" property-ref="2cfddb54e121475a90e7641f49b4361f" />
+        <attribute id="a304d719a0dc04d1c83129c0e860aa6d7919" cid="PROP016" name="userbooster_lollipop_hammer" creation-date="04/03/2024 01:04:51" property-ref="d3fd9b993723458d885de67886674ac6" />
+        <attribute id="ad7fd7ef0087b441bb8f829d7992c9f63243" cid="PROP017" name="userbooster_wrapped_brush" creation-date="04/03/2024 01:04:52" property-ref="0e20c6e3fada42bbb864a243d982ebba" />
+      </attributes>
+      <operations>
+        <operation id="6ef7e69267e24639aa6cdff226a8d467" cid="OP001" veid="o3b3853ed64f04d4aa131c3dce642bb15649" name="setname" creation-date="04/03/2024 00:23:18" type="void" type-id="void" visibility="public">
+          <parameters>
+            <parameter id="p322208c8ee9f400e91b23ef1fd044334" name="name" type="String" type-id="Uml.String" creation-date="04/03/2024 00:23:42" />
+          </parameters>
+        </operation>
+        <operation id="72e75547858a488faeacaa2319acd176" cid="OP002" veid="oe4565f5d850b4ee780239eaa004a0758985" name="setpassword" creation-date="04/03/2024 00:23:18" type="void" type-id="void" visibility="public">
+          <parameters>
+            <parameter id="p77e71e00f352447c8696ac158d674387" name="username" type="String" type-id="Uml.String" creation-date="04/03/2024 00:24:51" />
+          </parameters>
+        </operation>
+        <operation id="091bacc855134a0b9b403bc0aa852d3d" cid="OP003" veid="o4c54fb9114714c9a84ff3f29bafec434153" name="setNickname" creation-date="04/03/2024 00:23:19" type="void" type-id="void" visibility="public">
+          <parameters>
+            <parameter id="pe0eb44dda83242899e5334b96df50324" name="username" type="String" type-id="Uml.String" creation-date="04/03/2024 00:25:16" />
+          </parameters>
+        </operation>
+        <operation id="a25e9ad0fa7f4c08880363cc15b0ae05" cid="OP004" veid="o69ae30f9237c45a6937b915166faa7f7147" name="setBonous" creation-date="04/03/2024 00:27:26" type="void" type-id="void" visibility="public">
+          <parameters>
+            <parameter id="p81f8ae81768b4f4f903f2571a17727eb" name="bonous" type="String" type-id="Uml.String" creation-date="04/03/2024 00:31:02" />
+          </parameters>
+        </operation>
+        <operation id="eabd55b1749d4c479ea19ef02fe195cd" cid="OP005" veid="o8de58a9871614766a81198613d5ace7f53" name="getName" creation-date="04/03/2024 00:32:20" type="String" type-id="Uml.String" visibility="public" />
+        <operation id="oc8997ad0321f4eea99c2ac997f753092716" cid="OP006" name="getNickname" creation-date="04/03/2024 00:35:01" type="String" type-id="Uml.String" visibility="public" />
+        <operation id="obf3ef98a63e941ab968f501cf007a83a154" cid="OP007" name="getBonous" creation-date="04/03/2024 00:35:38" type="int" type-id="int" visibility="public" />
+        <operation id="obeaa8cf8bc5f45afa2bfdaad13cdce7d801" cid="OP008" name="getMoney" creation-date="04/03/2024 00:36:51" type="int" type-id="int" visibility="public" />
+        <operation id="o943bce7aee3340c28fc273bc572c4914428" cid="OP009" name="setMoney" creation-date="04/03/2024 00:36:52" type="void" type-id="void" visibility="public">
+          <parameters>
+            <parameter id="p09e52a45b8eb48c9adadff9c552752e0" name="money" type="int" type-id="int" creation-date="04/03/2024 00:37:20" />
+          </parameters>
+        </operation>
+        <operation id="o6d83fbcafdb64415b15e81073b89f02b15" cid="OP011" name="addMove" creation-date="04/03/2024 01:00:32" type="void" type-id="void" visibility="public">
+          <parameters>
+            <parameter id="p097b3cb2014746e089df61eb1a4a95b6" name="addmove" type="int" type-id="int" creation-date="04/03/2024 01:00:46" />
+          </parameters>
+        </operation>
+        <operation id="od2748dbff90c4c16b0ffaeb25123f358317" cid="OP012" name="setbooster_free" creation-date="04/03/2024 01:08:46" type="void" type-id="void" visibility="public">
+          <parameters>
+            <parameter id="p5afe2020443e405ab5c3437117517733" name="num" type="int" type-id="int" creation-date="04/03/2024 01:09:30" />
+          </parameters>
+        </operation>
+        <operation id="o6c8db4e33d16450fa9d63b7d9b1c7954484" cid="OP013" name="setbooster_striped" creation-date="04/03/2024 01:08:47" type="void" type-id="void" visibility="public">
+          <parameters>
+            <parameter id="pd888ee7581fc4ba28ac3f1d263b45161" name="num" type="int" type-id="int" creation-date="04/03/2024 01:09:41" />
+          </parameters>
+        </operation>
+        <operation id="o3500c4510b1e4bf9861318acbce672c0897" cid="OP014" name="setbooster_color" creation-date="04/03/2024 01:08:47" type="void" type-id="void" visibility="public">
+          <parameters>
+            <parameter id="p3a7011e38bd146999097b95815fdfa8e" name="num" type="int" type-id="int" creation-date="04/03/2024 01:09:46" />
+          </parameters>
+        </operation>
+        <operation id="o456f8a8a922f49bd8c97543a0f167710177" cid="OP015" name="setbooster_lollipop" creation-date="04/03/2024 01:08:48" type="void" type-id="void" visibility="public">
+          <parameters>
+            <parameter id="p3f372436f7f64c7a8ff324b9fb849e55" name="num" type="int" type-id="int" creation-date="04/03/2024 01:09:49" />
+          </parameters>
+        </operation>
+        <operation id="o63e2924e15f94842a31b081e4554d4a4986" cid="OP016" name="setbooster_wrapped" creation-date="04/03/2024 01:08:48" type="void" type-id="void" visibility="public">
+          <parameters>
+            <parameter id="p61630df188cb461582448dc8bc23d91d" name="num" type="int" type-id="int" creation-date="04/03/2024 01:09:53" />
+          </parameters>
+        </operation>
+      </operations>
+    </item>
+    <item id="3e3ae645d4b64123965a15790d3d14eb" cid="PROP011" type="property" name="money" owner="3beb9456dd4e4fe1ba8733324fa695ed" creator="" creation-date="04/03/2024 00:36:27" visibility="private">
+      <structural-feature type="int" type-id="int" />
+    </item>
+    <item id="d3fd9b993723458d885de67886674ac6" cid="PROP016" type="property" name="userbooster_lollipop_hammer" owner="3beb9456dd4e4fe1ba8733324fa695ed" creator="" creation-date="04/03/2024 01:04:51" visibility="private">
+      <structural-feature type="int" type-id="int" />
+    </item>
+  </items>
+  <models>
+    <model id="pef6c15868f68496c90d21035d3a76e47_915619427" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>04/03/2024 00:19:47</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p834783c06af4447d8996c03ae42eeeed_364759383" name="ClassDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-740,0">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/03/2024 00:19:47</creation-date>
+          <change-date>04/03/2024 01:14:52</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="06c77a9e7eb9477d98d80feae38a5150" cid="C007" type="class" name="striped_brush" creator="" creation-date="04/03/2024 00:58:45" />
+          <item id="f8f8fc14eeeb4e80960152f87535ce6a" cid="C003" type="class" name="chocolate" creator="" creation-date="04/03/2024 00:20:50" />
+          <item id="e07d200c755046dba3905ed3303d60e4" cid="PROP005" type="property" name="bonous" owner="9bd6e6af162341cf850b7b1dc847f50d" creator="" creation-date="04/03/2024 00:28:43" visibility="private">
+            <structural-feature type="int" type-id="int" />
+          </item>
+          <item id="f797ed9b0e5d476badf07cbdaa1f2a55" veid="e461d2b1861c4cdebcec97d87b8c325a" cid="PROP006" type="property" name="username" owner="3beb9456dd4e4fe1ba8733324fa695ed" creator="" creation-date="04/03/2024 00:22:14" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="fdbb5c3e52354942a798391265def45e" cid="PROP003" type="property" name="nickname" owner="9bd6e6af162341cf850b7b1dc847f50d" creator="" creation-date="04/03/2024 00:22:15" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="0f4ecb8055124ed18b82012cdd70813b" cid="GNR001" type="generalization" creator="" creation-date="04/03/2024 01:14:52" from="3d8a0c4efac64d04b2965969e3e93241" to="3beb9456dd4e4fe1ba8733324fa695ed" visibility="package" />
+          <item id="6874065658854e2bb381e401ecf39ee0" cid="C004" type="class" name="game plan" creator="" creation-date="04/03/2024 00:21:29">
+            <owned-items />
+            <attributes>
+              <attribute id="a6b901a451a0546fdb65a1abe70361703889" cid="PROP018" name="users" creation-date="04/03/2024 01:19:20" property-ref="b2bddae904f845e6af9f172f3ddc8077" />
+              <attribute id="accd70320a9f946dab2d4a3a64f342d4d642" cid="PROP019" name="NewAttribute2" creation-date="04/03/2024 01:19:38" property-ref="41b51d456b4f4198b8c397ace388e647" />
+            </attributes>
+            <operations>
+              <operation id="o60b6873d544f42be9a8945f63dd9d756329" cid="OP010" name="buyBooster" creation-date="04/03/2024 00:40:33" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="pae80135eee5741949f16fc131cbbf5cb" name="user" type="currentUser" type-id="Class:3d8a0c4efac64d04b2965969e3e93241" creation-date="04/03/2024 00:41:45" />
+                  <parameter id="p903069febc4e46baafa94d9b27be50fe" name="booster" type="String" type-id="Uml.String" creation-date="04/03/2024 00:41:45" />
+                  <parameter id="pb036182e8ea64546a5ad10d89568dc9b" name="count" type="int" type-id="int" creation-date="04/03/2024 00:41:45" />
+                </parameters>
+              </operation>
+              <operation id="oac2d15a460d04cb3bb2db208c693d939945" cid="OP018" name="show menu" creation-date="04/03/2024 01:15:40" type="void" type-id="void" visibility="public" />
+              <operation id="o4d5fae5d50124748ac1889c04b1ae93362" cid="OP019" name="list_users" creation-date="04/03/2024 01:16:00" type="void" type-id="void" visibility="public" />
+              <operation id="o48677f711dc544a48c8b93de83bd20f3416" cid="OP020" name="login" creation-date="04/03/2024 01:17:06" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="pbda17ffca7ac4347b2ac674b07a65833" name="username" type="String" type-id="Uml.String" creation-date="04/03/2024 01:18:06" />
+                  <parameter id="p19d9ba071ded4b138d29d249bec55959" name="password" type="String" type-id="Uml.String" creation-date="04/03/2024 01:18:06" />
+                </parameters>
+              </operation>
+              <operation id="o2d2b74bc5b9047afa4f185e0e4dc6ac673" cid="OP021" name="register" creation-date="04/03/2024 01:18:10" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p0e9d36b16bdc4504b3b419ee295476a4" name="username" type="String" type-id="Uml.String" creation-date="04/03/2024 01:19:17" />
+                  <parameter id="p534e2cb1b57b4d37abe14628fa96921c" name="password" type="String" type-id="Uml.String" creation-date="04/03/2024 01:19:17" />
+                  <parameter id="p4058b21c2d37451b827210f8038be016" name="nickname" type="String" type-id="Uml.String" creation-date="04/03/2024 01:19:17" />
+                </parameters>
+              </operation>
+              <operation id="oc2b1d96fff6f4e42a35b4271ec620ba1487" cid="OP022" name="show_scoreboard" creation-date="04/03/2024 01:20:31" type="void" type-id="void" visibility="public" />
+            </operations>
+          </item>
+          <item id="1cfb9ef873134b18bd0a213c992ce78b" cid="PKG001" type="class" name="booster" creator="" creation-date="04/03/2024 00:57:12" visibility="undefined">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+              <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+                  <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="b2bddae904f845e6af9f172f3ddc8077" cid="PROP018" type="property" name="users" owner="6874065658854e2bb381e401ecf39ee0" creator="" creation-date="04/03/2024 01:19:20" visibility="private">
+            <structural-feature type="ArrayList&lt;user&gt;" type-id="ArrayList&lt;user&gt;" />
+          </item>
+          <item id="677d8f45ba914049bc2f5936cf1c81eb" cid="C005" type="class" name="free_switch" creator="" creation-date="04/03/2024 00:58:08" />
+          <item id="41b51d456b4f4198b8c397ace388e647" cid="PROP019" type="property" name="NewAttribute2" owner="6874065658854e2bb381e401ecf39ee0" creator="" creation-date="04/03/2024 01:19:38" visibility="private" />
+          <item id="38f756aec82844ee9ad236102e3fefd9" veid="fdbb5c3e52354942a798391265def45e" cid="PROP008" type="property" name="nickname" owner="3beb9456dd4e4fe1ba8733324fa695ed" creator="" creation-date="04/03/2024 00:22:15" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="bcb335e1c5f341638c4ab4f1ca51f480" cid="C001" type="class" name="booster" creator="" creation-date="04/03/2024 00:19:51" />
+          <item id="91c7a60fed974d3ba2d8e23d93f89623" cid="PROP004" type="property" name="userbooster" owner="9bd6e6af162341cf850b7b1dc847f50d" creator="" creation-date="04/03/2024 00:27:30" visibility="private">
+            <structural-feature type="ArrayList&lt;booster&gt;" type-id="ArrayList&lt;booster&gt;" />
+          </item>
+          <item id="29805a9ad20049cc895a60d735dc835c" veid="ea06c14910cc4c709978d4d9d99cc03e" cid="PROP007" type="property" name="password" owner="3beb9456dd4e4fe1ba8733324fa695ed" creator="" creation-date="04/03/2024 00:22:15" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="ea06c14910cc4c709978d4d9d99cc03e" cid="PROP002" type="property" name="password" owner="9bd6e6af162341cf850b7b1dc847f50d" creator="" creation-date="04/03/2024 00:22:15" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="3d8a0c4efac64d04b2965969e3e93241" cid="C011" type="class" name="currentUser" creator="" creation-date="04/03/2024 01:12:27" />
+          <item id="7f1f49d4b5a643fd88b22ae78f994ab8" cid="C008" type="class" name="lollipop_hammer" creator="" creation-date="04/03/2024 00:58:56" />
+          <item id="e461d2b1861c4cdebcec97d87b8c325a" cid="PROP001" type="property" name="username" owner="9bd6e6af162341cf850b7b1dc847f50d" creator="" creation-date="04/03/2024 00:22:14" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="a844b92cf0924feb92dec23ef0e59e06" cid="C006" type="class" name="color_bomb_brush" creator="" creation-date="04/03/2024 00:58:28" />
+          <item id="da09ffdcb86245e6afdfb174405ed420" cid="C009" type="class" name="wrapped_brush" creator="" creation-date="04/03/2024 00:59:16">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Segoe UI;11.25;" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+              <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+                  <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="e672394786bf45aaa9443693d5e70450" veid="91c7a60fed974d3ba2d8e23d93f89623" cid="PROP009" type="property" name="userbooster_free_switch" owner="3beb9456dd4e4fe1ba8733324fa695ed" creator="" creation-date="04/03/2024 00:27:30" visibility="private">
+            <structural-feature type="int" type-id="int" />
+          </item>
+          <item id="9f6e363faebc4f528ac13f2e7302bdaa" veid="e07d200c755046dba3905ed3303d60e4" cid="PROP010" type="property" name="bonous" owner="3beb9456dd4e4fe1ba8733324fa695ed" creator="" creation-date="04/03/2024 00:28:43" visibility="private">
+            <structural-feature type="int" type-id="int" />
+          </item>
+          <item id="9bd6e6af162341cf850b7b1dc847f50d" cid="C002" type="class" name="user" creator="" creation-date="04/03/2024 00:20:31" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a5c4068a5c53c43c598944965e69f3977814" cid="PROP001" name="username" creation-date="04/03/2024 00:22:14" property-ref="e461d2b1861c4cdebcec97d87b8c325a" />
+              <attribute id="a5f8e3b2d0e72430fb184a49a5d238f3c213" cid="PROP002" name="password" creation-date="04/03/2024 00:22:15" property-ref="ea06c14910cc4c709978d4d9d99cc03e" />
+              <attribute id="af12c8d5cc589480990d3e3036931d656402" cid="PROP003" name="nickname" creation-date="04/03/2024 00:22:15" property-ref="fdbb5c3e52354942a798391265def45e" />
+              <attribute id="abd0b79cd3f8943de9a79dc93ff15c4fd111" cid="PROP004" name="userbooster" creation-date="04/03/2024 00:27:30" property-ref="91c7a60fed974d3ba2d8e23d93f89623" />
+              <attribute id="a84b85877f59f40cb81ede1a7421f0f138" cid="PROP005" name="bonous" creation-date="04/03/2024 00:28:43" property-ref="e07d200c755046dba3905ed3303d60e4" />
+            </attributes>
+            <operations>
+              <operation id="o3b3853ed64f04d4aa131c3dce642bb15649" cid="OP001" name="getname" creation-date="04/03/2024 00:23:18" type="String" type-id="Uml.String" visibility="public">
+                <parameters>
+                  <parameter id="p322208c8ee9f400e91b23ef1fd044334" name="name" type="String" type-id="Uml.String" creation-date="04/03/2024 00:23:42" />
+                </parameters>
+              </operation>
+              <operation id="oe4565f5d850b4ee780239eaa004a0758985" cid="OP002" name="getpassword" creation-date="04/03/2024 00:23:18" type="String" type-id="Uml.String" visibility="public">
+                <parameters>
+                  <parameter id="p77e71e00f352447c8696ac158d674387" name="username" type="String" type-id="Uml.String" creation-date="04/03/2024 00:24:51" />
+                </parameters>
+              </operation>
+              <operation id="o4c54fb9114714c9a84ff3f29bafec434153" cid="OP003" name="getNickname" creation-date="04/03/2024 00:23:19" type="String" type-id="Uml.String" visibility="public">
+                <parameters>
+                  <parameter id="pe0eb44dda83242899e5334b96df50324" name="username" type="String" type-id="Uml.String" creation-date="04/03/2024 00:25:16" />
+                </parameters>
+              </operation>
+              <operation id="o69ae30f9237c45a6937b915166faa7f7147" cid="OP004" name="getBonous" creation-date="04/03/2024 00:27:26" type="int" type-id="int" visibility="public">
+                <parameters>
+                  <parameter id="p81f8ae81768b4f4f903f2571a17727eb" name="bonous" type="String" type-id="Uml.String" creation-date="04/03/2024 00:31:02" />
+                </parameters>
+              </operation>
+              <operation id="o8de58a9871614766a81198613d5ace7f53" cid="OP005" name="NewOperation5" creation-date="04/03/2024 00:32:20" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+        </abstract-items>
+        <layer id="dc70db14ad92403daf15f62d7fd57ce5" name="Default" visible="true" enabled="true" locked="false">
+          <item id="f8f8fc14eeeb4e80960152f87535ce6a" iid="5cf990aba8e144b099882c30770f24fc" show-fields="true" creation-date="04/03/2024 00:20:50" order-index="2" type="entity">
+            <layout ax="826" ay="278" awidth="140" aheight="160" x="826" y="278" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="6874065658854e2bb381e401ecf39ee0" iid="9c1ac1898bfe44d3b48ade44d1628977" show-fields="true" creation-date="04/03/2024 00:21:29" order-index="3" type="entity">
+            <layout ax="1041" ay="298" awidth="584" aheight="248" x="1041" y="298" width="584" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="3beb9456dd4e4fe1ba8733324fa695ed" iid="600699bbdb9a45a5a6e1adf296b38011" show-fields="true" creation-date="04/03/2024 00:20:31" order-index="0" type="entity">
+            <layout ax="158" ay="126" awidth="472" aheight="535" x="158" y="126" width="472" height="472" />
+            <classifier />
+            <class />
+          </item>
+          <item id="677d8f45ba914049bc2f5936cf1c81eb" iid="3954749edcad49f58eda65d6393249f1" show-fields="true" creation-date="04/03/2024 00:58:08" order-index="4" type="entity">
+            <layout ax="104" ay="725" awidth="140" aheight="160" x="104" y="725" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="a844b92cf0924feb92dec23ef0e59e06" iid="3bb4c65dd4794c38ba814efa88aa9fb9" show-fields="true" creation-date="04/03/2024 00:58:28" order-index="5" type="entity">
+            <layout ax="308" ay="725" awidth="254" aheight="160" x="308" y="725" width="254" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="06c77a9e7eb9477d98d80feae38a5150" iid="a5f789eaa7ad4c768c8b86451b63b488" show-fields="true" creation-date="04/03/2024 00:58:45" order-index="6" type="entity">
+            <layout ax="630" ay="754" awidth="140" aheight="160" x="630" y="754" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="7f1f49d4b5a643fd88b22ae78f994ab8" iid="92934eb0813243c4a13dca2b65702725" show-fields="true" creation-date="04/03/2024 00:58:56" order-index="7" type="entity">
+            <layout ax="826" ay="754" awidth="140" aheight="160" x="826" y="754" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="da09ffdcb86245e6afdfb174405ed420" iid="ca2ab057a8824f42a2720c88451c2827" show-fields="true" creation-date="04/03/2024 00:59:16" order-index="8" type="entity">
+            <layout ax="1022" ay="706" awidth="140" aheight="160" x="1022" y="706" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="3d8a0c4efac64d04b2965969e3e93241" iid="0b3950581a324cb68f6f411512426e4c" show-fields="true" creation-date="04/03/2024 01:12:27" order-index="9" type="entity">
+            <layout ax="-310" ay="257" awidth="140" aheight="160" x="-310" y="257" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="0f4ecb8055124ed18b82012cdd70813b" iid="8d7a99444e87446ca497f0474473a741" creation-date="04/03/2024 01:14:52" order-index="10" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-170" y1="331" x2="158" y2="347" start-border-pos="0.365625" end-border-pos="0.8967289719626168" start-local-pos="74" end-local-pos="221" name-position="0,20">
+              <points>
+                <point x="-170" y="331" />
+                <point x="158" y="347" />
+              </points>
+            </layout>
+            <relation from="3d8a0c4efac64d04b2965969e3e93241" from-iid="0b3950581a324cb68f6f411512426e4c" to="3beb9456dd4e4fe1ba8733324fa695ed" to-iid="600699bbdb9a45a5a6e1adf296b38011" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
