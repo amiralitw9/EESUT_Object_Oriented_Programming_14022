@@ -1,2 +1,23 @@
-# -EESUT_Object_Oriented_Programming_14022
-Coursework, weekly assignments, and PDF problem sets for Object-Oriented Programming (C++) at Sharif University of Technology, EE Dept. - Spring 2024 (Term 14022)
+# Sharif University of Technology - Object-Oriented Programming (OOP) 🚀
+
+Welcome to my repository for the **Object-Oriented Programming** course, completed during **Term 14022 (Spring 2024)** at the **Department of Electrical Engineering, Sharif University of Technology**.
+
+This repository contains my weekly coding assignments, exercises, and official theoretical problem sets designed to master advanced software architecture and data abstraction using **C++**.
+
+---
+
+## 📂 Repository Structure
+
+The project files are systematically organized into structural directories. Each folder contains its respective source code files directly within it, alongside the official assignment specifications:
+
+```text
+├── 📁 OOP_1_1/ to OOP_3_3/       # Weekly Programming Assignments & Exercises
+│   ├── OOP_1_1/                  # C++ Source files for Assignment 1-1
+│   ├── OOP_1_2/                  # C++ Source files for Assignment 1-2
+│   ├── OOP_2_1/                  # C++ Source files for Assignment 2-1
+│   └── ...                       # Other weekly coding modules
+│
+└── 📄 PDF Documents              # Official Assignment Specifications & Handouts
+    ├── OOP-HW1.pdf               # Handout and guidelines for Homework 1
+    ├── OOP_Spring2024_HW2.pdf    # Handout and guidelines for Homework 2
+    └── OOP_Spring2024_HW3.pdf    # Handout and guidelines for Homework 3
