@@ -21,3 +21,16 @@ The project files are systematically organized into structural directories. Each
     ├── OOP-HW1.pdf               # Handout and guidelines for Homework 1
     ├── OOP_Spring2024_HW2.pdf    # Handout and guidelines for Homework 2
     └── OOP_Spring2024_HW3.pdf    # Handout and guidelines for Homework 3
+---
+
+## 🏆 Final Course Project: City Wars Game
+
+The cornerstone of this repository is **City Wars**, a strategic turn-based game built from scratch using **Java**. This project demonstrates the practical application of advanced software design patterns and strict object-oriented principles.
+
+### Key Features:
+* **Core OOP Architecture:** Heavy utilization of Polymorphism, Inheritance, Encapsulation, and Data Abstraction.
+* **Design Patterns:** Implemented robust architectural design patterns to manage game states, entity interactions, and map rendering.
+* **Graphical User Interface (GUI):** A fully interactive, user-friendly graphical interface with seamless real-time event handling.
+
+You can explore the full implementation and source code directly in this repository or navigate to the project directory:
+🔗 **[Explore City Wars Game Source Code](https://github.com/amiralitw9/OOP)**
