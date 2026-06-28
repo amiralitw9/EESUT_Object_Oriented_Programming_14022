@@ -25,3 +25,12 @@ The project files are systematically organized into structural directories. Each
     ├── OOP-HW1.pdf               # Handout and guidelines for Homework 1
     ├── OOP_Spring2024_HW2.pdf    # Handout and guidelines for Homework 2
     └── OOP_Spring2024_HW3.pdf    # Handout and guidelines for Homework 3
+---
+
+## 🎮 Related Projects
+
+### [City Wars Game](https://github.com/amiralitw9/OOP/tree/main/City-Wars-Game)
+An object-oriented strategic game developed in **Java** as the main course project for the Object-Oriented Programming (OOP) course at Sharif University of Technology (Spring 2024). 
+
+* **Repository:** [amiralitw9/OOP](https://github.com/amiralitw9/OOP)
+* **Tech Stack:** Java, OOP Principles, Software Architecture
